@@ -1,0 +1,15 @@
+drop table products;
+create table products
+(
+productCode int(6),
+productDesc varchar(20),
+quantity int(4),
+price float(6,2),
+path varchar(30),
+primary key(productCode)
+);
+load data local infile "products.csv"
+ into table products
+ fields terminated by ","
+ (productCode,productDesc,quantity, price, path);
+select * from products;

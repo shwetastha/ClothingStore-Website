@@ -1,0 +1,82 @@
+header, body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+header{
+    font-size: 32px;
+}
+
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo{
+    height: 100px;
+    width: 300px;
+}
+
+.displayTable{
+    height: 500px;
+    width: 400px;
+}
+
+.left_alignment{
+    margin-top:20px;
+    vertical-align: top;
+    text-align: left;
+     
+}
+
+nav{
+    text-align: right;
+    float: right;
+    padding-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img{
+    height:500px;
+    width: 700px;
+}
+
+video{
+    padding-top: 50px; 
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+}
+
+h2{
+    text-align: center;
+}
+
+.body-center{
+    text-align: center;
+}
+
+table{
+    margin:0 auto;
+}
+
+td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer{
+    font-family: "Lucida Console", Monaco, monospace;
+    text-align: center;
+    color: #C0C0C0;
+    padding-top: 50px; 
+}
+
+
